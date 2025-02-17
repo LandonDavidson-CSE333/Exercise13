@@ -18,7 +18,7 @@ class Polar : Coordinate::Coordinate {
   Polar(double radius, double angle) : radius_(radius), angle_(angle) {}
 
   // Represent Polar as a string
-  std::string ToString() override {
+  std::string ToString() const override {
     return "(" + std::to_string(radius_) + "," + std::to_string(angle_) + ")";
   }
 

@@ -13,7 +13,7 @@ class Coordinate {
   // Virtual default destructor
   virtual ~Coordinate() = default;
   // Return a string representation of coord object
-  virtual std::string ToString() = 0;
+  virtual std::string ToString() const = 0;
 };  // class Coordinate
 
 }  // namespace Coordinate

@@ -16,7 +16,7 @@ class Cartesian : Coordinate::Coordinate {
   Cartesian(double x, double y) : x_(x), y_(y) {}
 
   // Return string representation of cartesian coord
-  std::string ToString() override {return "(" + std::to_string(x_) + "," + std::to_string(y_) + ")";}
+  std::string ToString() const override {return "(" + std::to_string(x_) + "," + std::to_string(y_) + ")";}
   // Return the distance between this and another cartesian
   double Distance(const Cartesian &cart) const;
 
