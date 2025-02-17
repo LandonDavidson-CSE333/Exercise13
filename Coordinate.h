@@ -3,13 +3,14 @@
 #ifndef COORDINATE_H_
 #define COORDINATE_H_
 
-#include <String>
+#include <string>
 
 namespace Coordinate {
 
 class Coordinate {
  public:
-  virtual std::String ToString() = 0;
+  // Return a string representation of coord object
+  virtual std::string ToString() = 0;
 };  // class Coordinate
 
 }  // namespace Coordinate
