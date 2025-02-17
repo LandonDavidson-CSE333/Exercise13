@@ -18,4 +18,4 @@ class Coordinate {
 
 }  // namespace Coordinate
 
-#endif //COORDINATE_H_
+#endif  // COORDINATE_H_
