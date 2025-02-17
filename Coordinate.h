@@ -9,6 +9,8 @@ namespace Coordinate {
 
 class Coordinate {
  public:
+  // Virtual default destructor
+  virtual ~Coordinate() = default;
   // Return a string representation of coord object
   virtual std::string ToString() = 0;
 };  // class Coordinate
