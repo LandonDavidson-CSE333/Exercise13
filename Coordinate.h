@@ -1,4 +1,5 @@
-// Copyright 2025 Landond Davidson
+// Copyright 2025 Landon Davidson
+// landond@uw.edu
 
 #ifndef COORDINATE_H_
 #define COORDINATE_H_
