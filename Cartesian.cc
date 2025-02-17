@@ -20,9 +20,4 @@ namespace Cartesian {
     return std::sqrt(x_dist + y_dist);
   }
 
-  std::string Cartesian::ToString() override {
-    return {};
-  }
-
-
 }  // Cartesian
