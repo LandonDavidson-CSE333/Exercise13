@@ -19,7 +19,8 @@ class Polar : Coordinate::Coordinate {
 
   // Represent Polar as a string
   std::string ToString() const override {
-    return "(" + std::to_string(radius_) + "," + std::to_string(angle_) + ")";
+    std::string obj_type = "Polar ";
+    return obj_type + "(" + std::to_string(radius_) + "," + std::to_string(angle_) + ")";
   }
 
   // Return the distance between this and another polar object
