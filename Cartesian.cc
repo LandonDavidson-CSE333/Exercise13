@@ -5,4 +5,4 @@
 #include "Cartesian.h"
 
 namespace Cartesian {
-} // Cartesian
+}  // Cartesian

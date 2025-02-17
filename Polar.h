@@ -5,6 +5,8 @@
 #ifndef POLAR_H
 #define POLAR_H
 
+#include "Coordinate.h"
+
 namespace Polar {
 
 class Polar {
